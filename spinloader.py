@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 
 import os
 import sys
@@ -142,7 +142,7 @@ class LoadSpinner:
         self.stop(raise_exception=True)
 
 if __name__ == '__main__':
-    with LoadSpinner('Generating keys...', speed=LoadSpinner.VERY_FAST) as ls:
+    with LoadSpinner('Generating keys...', speed=LoadSpinner.FAST) as ls:
         sleep(4)
         print('Key generated successfully')
         ls.update('Updating data...')
