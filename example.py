@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Here is a few example for how to user LoadSpinner
+# Here is a few examples for how to user LoadSpinner
 
 from time import sleep
 from spinloader import LoadSpinner, spindec, AbstractSpinner, BarSpinner
