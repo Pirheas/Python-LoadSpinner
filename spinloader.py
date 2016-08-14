@@ -276,7 +276,7 @@ class LoadSpinner:
 def spindec(text='Loading...', speed=LoadSpinner.NORMAL, new_line=True,
             spinner=BarSpinner(), stdout_type=LoadSpinner.STDOUT_REDIRECT):
     """
-    Decorator that will create a LoadSpinner (that will last until the and of the function it decorate)
+    Decorator that will create a LoadSpinner (that will last until the end of the function it decorate)
     """
     def deco_wrapper(func):
         def func_wrapper(*args, **kwargs):
